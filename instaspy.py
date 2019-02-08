@@ -19,7 +19,7 @@ chdir(TARGET)
 
 ##Check to see if history file exists for TARGET
 if Path(f"{TARGET}history.txt").is_file() == False:
-    file = open(f"{TARGET}history.txt", "w")
+    file = open(f"{TARGET}deletionhistory.txt", "w")
 
 # Obtain set of posts on HD
 offline_posts = set(filter(lambda s: isinstance(s, Post),
