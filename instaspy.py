@@ -18,7 +18,7 @@ if Path(TARGET).is_dir() == False:
 chdir(TARGET)
 
 ##Check to see if history file exists for TARGET
-if Path(f"{TARGET}history.txt").is_file() == False:
+if Path(f"{TARGET}deletionhistory.txt").is_file() == False:
     file = open(f"{TARGET}deletionhistory.txt", "w")
 
 # Obtain set of posts on HD
