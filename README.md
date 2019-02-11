@@ -13,4 +13,4 @@ $ pip3 install instaloader
 ```
 $ python3 instaspy.py [TARGET]
 ``` 
-where `TARGET` is the username of the profile you want to archive. The list of deletions is stored as `{TARGET}deletionhistory.txt`.
+or set as cronjob. `TARGET` is the username of the profile you want to archive. The list of deletions is stored as `{TARGET}deletionhistory.txt`.
